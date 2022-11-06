@@ -1,0 +1,13 @@
+.container-fluid {
+  padding: 3% 13%;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#logo_heading {
+  font-family: "Crimson Pro", serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+@import "mixin";
+@import "variables";
+
+// styling code here
+
+
+// Styling the first section
+.container-fluid{
+    padding: 3% 13%;
+}
+
+#title{
+    background-color: $bg-color;
+}
+
+#logo_heading{
+    @include logoHeading;
+}
+
