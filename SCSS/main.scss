@@ -3,17 +3,57 @@
 
 // styling code here
 
+// Whole body fonts
+body{
+    font-family: $montserrat-fonts;
+}
 
 // Styling the first section
 .container-fluid{
     padding: 3% 13%;
 }
 
+// title section of the website
 #title{
     background-color: $bg-color;
+    color: #fff;
+
+    // download buttons (childern)
+    .download-button{
+        margin: 5% 3% 5% 0;
+    }
+
+    // Image of the title
+    .title-image{
+        width: 60%;
+        margin-left: 20%;
+        transform: rotate(20deg);
+        transition: 0.9s;
+        
+    }
 }
 
 #logo_heading{
-    @include logoHeading;
+    @include logoHeading(('Rubik Bubbles',cursive));
 }
 
+
+/* Navbar styling */
+// nav bar
+.navbar{
+    padding: 0 0 4.5rem;
+
+
+    // Navbar brand
+    .navbar-brand {
+        font-size: 3rem;
+        font-family: "ubuntu";
+    }
+
+    // Navbar item
+    .nav-item{
+        padding: 0 18px;
+        font-size: 1.3rem;
+        font-family: $montserrat-light-fonts;
+    }
+}

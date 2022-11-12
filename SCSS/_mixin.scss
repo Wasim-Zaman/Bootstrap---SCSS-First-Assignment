@@ -1,5 +1,5 @@
-@mixin logoHeading {
-    font-family: 'Crimson Pro', serif;
-    font-size: 3rem;
+@mixin logoHeading($font_family) {
+    font-family: $font_family;
+    font-size: 4rem;
     line-height: 1.5;
 }
