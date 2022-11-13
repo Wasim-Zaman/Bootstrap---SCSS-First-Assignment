@@ -78,7 +78,7 @@ body{
 
     // paragraphs inside
     p{
-        color: #8f8f8f;
+        color: $light-para-color;
     }
 
     // Icons inside the features sections
@@ -86,10 +86,50 @@ body{
 
         // on hover
         &:hover{
-            color: #ff4c68;
+            color: $bg-color;
         }
-        color: #ef8172;
+        color: $accent-color;
         margin-bottom: 2rem;
     }
 
+}
+
+
+// Testimonials section styling
+#testimonials{
+    text-align: center;
+    background-color: $accent-color;
+    color: white;
+    
+    
+    // carousel item styling
+    .carousel-item{        
+        padding: 5% 15%;
+    }
+
+    // Inside headings
+    h2{
+        font-size: 3rem;
+        font-family: $montserrat-bold-fonts;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    img{
+        border-radius: 100%;
+        margin: 36px;
+        width: 36%;
+    }
+}
+
+// Press section styling
+#press{
+    background-color: $accent-color;
+    text-align: center;
+    padding-bottom: 3%;
+
+    img{
+        width: 16%;
+        margin: 20px 30px 50px;
+    }
 }

@@ -60,4 +60,34 @@ body {
 }
 #features .fa-4x:hover {
   color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+#testimonials .carousel-item {
+  padding: 5% 15%;
+}
+#testimonials h2 {
+  font-size: 3rem;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  line-height: 1.5;
+}
+#testimonials img {
+  border-radius: 100%;
+  margin: 36px;
+  width: 36%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 16%;
+  margin: 20px 30px 50px;
 }/*# sourceMappingURL=main.css.map */
