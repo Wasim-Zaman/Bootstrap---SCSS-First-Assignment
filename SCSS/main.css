@@ -32,10 +32,32 @@ body {
 }
 .navbar .navbar-brand {
   font-size: 3rem;
-  font-family: "ubuntu";
+  font-family: "Ubuntu";
 }
 .navbar .nav-item {
   padding: 0 18px;
   font-size: 1.3rem;
   font-family: "Montserrat-Light";
+}
+
+#features {
+  padding: 7% 15%;
+}
+#features .feature-div {
+  padding: 4rem;
+  text-align: center;
+}
+#features h3 {
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+#features p {
+  color: #8f8f8f;
+}
+#features .fa-4x {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+#features .fa-4x:hover {
+  color: #ff4c68;
 }/*# sourceMappingURL=main.css.map */

@@ -47,7 +47,7 @@ body{
     // Navbar brand
     .navbar-brand {
         font-size: 3rem;
-        font-family: "ubuntu";
+        font-family: "Ubuntu";
     }
 
     // Navbar item
@@ -56,4 +56,40 @@ body{
         font-size: 1.3rem;
         font-family: $montserrat-light-fonts;
     }
+}
+
+
+// features section 
+#features{
+    padding: 7% 15%;
+
+
+    // feature boxes or divs
+    .feature-div{
+        padding: 4rem;
+        text-align: center;
+    }
+    // headings inside features
+    h3{
+        font-weight: bold;
+        font-family: $montserrat-fonts;
+
+    }
+
+    // paragraphs inside
+    p{
+        color: #8f8f8f;
+    }
+
+    // Icons inside the features sections
+    .fa-4x{
+
+        // on hover
+        &:hover{
+            color: #ff4c68;
+        }
+        color: #ef8172;
+        margin-bottom: 2rem;
+    }
+
 }
